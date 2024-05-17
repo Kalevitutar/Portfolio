@@ -1,0 +1,73 @@
+.App {
+  background-color: #e6e1c5;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+.movies {
+  flex: 1;
+}
+
+.codingImages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.languageLogo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.cssLogo {
+  height: 8rem;
+  width: 8rem;
+}
+
+.languageLogo img {
+  height: 100%;
+  width: 100%
+}
+
+.card {
+  padding: 1rem;
+}
+
+.poster {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* tablets */
+@media screen and (min-width: 768px) {
+  .movieCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+    padding: 1rem;
+    align-self: start;
+  }
+  .card {
+    align-self: start;
+  }
+}
+
+/* small desktop and up */
+@media screen and (min-width: 1200px) {
+  .movieCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em;
+    padding: 1rem;
+    align-self: start;
+  }
+}
