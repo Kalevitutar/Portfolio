@@ -27,7 +27,9 @@ function Footer(props) {
             <h3 className="blue">tanyamthomas.com</h3>
           </div>
           <div className="contact-links">
-            <img src="src/Assets/gitHub.png" alt="gitHub logo"/>
+            <a href="https://github.com/Kalevitutar" target="_blank" rel="noopener noreferrer">
+              <img src="src/Assets/gitHub.png" alt="gitHub logo"/>
+            </a>
             <h3 className="blue">github.com/Kalevitutar</h3>
           </div>
           <div className="contact-links">
